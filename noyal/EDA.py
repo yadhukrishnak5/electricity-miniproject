@@ -1,3 +1,4 @@
+#code part one
 fig, axes = plt.subplots(2, 2, figsize=(15, 10))
 axes[0, 0].hist(df['units_consumed_kwh'], bins=50, color='skyblue', edgecolor='black')
 axes[0, 0].set_title('Distribution of Electricity Consumption', fontsize=12, fontweight='bold')
